@@ -26,7 +26,6 @@ const Login = () => {
                                     <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
 
                                     <button data-button-init data-ripple-init class="btn btn-outline-light btn-lg px-5 mx-4" type="submit">Login</button>
-                                    <button data-button-init data-ripple-init class="btn btn-outline-light btn-lg mx-3 px-5" type="button">Sign up</button>
                                     <div class="d-flex justify-content-center text-center mt-4 pt-1">
                                         <a href="#!" class="text-white"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
                                         <a href="#!" class="text-white"><i class="fa-brands fa-twitter mx-4 px-2"></i></a>
