@@ -10,15 +10,16 @@
     border-radius: 8px;
     outline: none;
     padding: 16px;
-    transition: 0.5s;
+    transition: 0.3ms ease-in-out;
 }
 
 .form input:valid ~ label,
 .form input:focus ~ label{
+    font-weight:500;
     color: #ffffff;
-    transform: translateX(10px) translateY(-7px);
-    font-size: 0.70em;
-    padding: 0 10px;
+    transform: translateX(10px) translateY(-12px);
+    font-size: 0.75em;
+    padding: 0 5px;
     background: #212529;
 }
 
