@@ -16,11 +16,11 @@ const Login = () => {
                                     <p className="text-white-50 mb-5">Please enter your login and password!</p>
                                     <form>
                                     <div className="form mb-3">
-                                        <input type="email" id="email"></input>
+                                        <input type="email" id="email" required></input>
                                         <label for="email">Email address</label>
                                     </div>
                                     <div className="form mb-3">
-                                        <input type="password" id="password"></input>
+                                        <input type="password" id="password" required></input>
                                         <label for="password">Password</label>
                                     </div>
                                     <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
